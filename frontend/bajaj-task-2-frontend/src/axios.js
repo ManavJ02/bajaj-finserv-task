@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: "http://localhost:3000/bfhl",
+    baseURL: "https://bajaj-finserv-task-o9op.onrender.com/bfhl",
 });
 
 export default instance;
